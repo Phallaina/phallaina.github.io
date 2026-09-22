@@ -6,7 +6,7 @@
 
 ## 站点特色
 
-- **银河鲸主题**：首页鲸鱼背景随深浅色主题自动切换（浅色 / 深色各一张）
+- **银河鲸主题**：首页鲸鱼背景随深浅色主题自动切换
 - **深浅色自动切换**：本地时间 0–5 点默认深色，其余默认浅色；可手动切换并记忆偏好
 - **三个栏目**：
   - 星吟 — 随笔漫想
@@ -44,33 +44,6 @@
    脚本自动完成：Hugo 构建 → 同步产物到本仓库 → 提交 → 推送。
 
 3. 等待 1–2 分钟，站点自动更新。
-
-### 新电脑首次搭建
-
-1. 安装 Git：<https://git-scm.com>
-2. 克隆源码仓（**私有**，需 ulanlogin 账号登录；自带 `hugo.exe` 与 `deploy.ps1`，无需另装 Hugo）：
-
-   ```powershell
-   git clone https://github.com/ulanlogin/iinorii.github.io.git moments-blog
-   ```
-
-3. 克隆本部署仓（**公开**，需 phallaina 账号登录）：
-
-   ```powershell
-   git clone https://phallaina@github.com/phallaina/phallaina.github.io.git moments-blog-deploy
-   ```
-
-4. 两个文件夹必须**同级**，部署仓目录名保持 `moments-blog-deploy`（部署脚本按此定位）。
-5. 之后按「日常更新」流程操作。
-
-### 本地预览
-
-```powershell
-cd moments-blog
-.\hugo.exe server
-```
-
-浏览器打开 <http://localhost:1313/> 预览，确认无误后再部署。
 
 ## 技术栈
 
