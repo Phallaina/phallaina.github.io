@@ -1,0 +1,17 @@
+﻿<svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M60,120 Q80,80 150,75 Q220,70 280,90 Q340,110 350,130 Q345,145 320,150 Q260,160 180,155 Q100,150 70,140 Q55,132 60,120 Z" 
+        stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+  <path d="M200,75 Q210,55 220,75" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+  <path d="M350,130 Q370,110 380,125 Q370,135 360,135" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+  <path d="M350,130 Q370,150 380,135 Q370,125 360,125" stroke="var(--accent)" stroke-width="1.5" fill="none" transform="translate(0,8)"/>
+  <path d="M120,145 Q115,170 130,175 Q135,160 130,150" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+  <circle cx="90" cy="110" r="2" fill="var(--accent)"/>
+  <circle cx="50" cy="60" r="1.5" fill="var(--accent)" opacity="0.6"/>
+  <circle cx="120" cy="40" r="1" fill="var(--accent)" opacity="0.5"/>
+  <circle cx="250" cy="35" r="1.5" fill="var(--accent)" opacity="0.6"/>
+  <circle cx="320" cy="55" r="1" fill="var(--accent)" opacity="0.5"/>
+  <circle cx="370" cy="80" r="1.2" fill="var(--accent)" opacity="0.5"/>
+  <circle cx="30" cy="100" r="1" fill="var(--accent)" opacity="0.4"/>
+  <circle cx="280" cy="180" r="1.2" fill="var(--accent)" opacity="0.5"/>
+  <circle cx="150" cy="185" r="1" fill="var(--accent)" opacity="0.4"/>
+</svg>
