@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+	<meta name="generator" content="Hugo 0.159.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phallaina | Phallaina · 星吟</title><link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%235c7286' stroke-width='1.5'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%235c7286'/%3E%3C/svg%3E">
+  <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+  <h1 class="site-title"><a href="/" style="text-decoration:none;color:inherit">Phallaina · 星吟</a></h1>
+  <div class="header-row">
+    <p class="site-subtitle">以太渡鲸，随星而鸣</p>
+    <button class="theme-toggle" id="themeBtn">暗色模式</button>
+  </div>
+</header>
+
+    <main class="site-main">
+      <aside class="sidebar">
+  <div class="nav-title">目录 / ARCHIVE</div>
+  <ul class="nav-list">
+    
+    <li><a href="/posts/" >星吟</a></li>
+    <li><a href="/moments/" >碎片</a></li>
+    <li><a href="/about/" >关于我 / About</a></li>
+  </ul>
+  <p class="nav-note">这里只记录内心流动，没有强故事，只有情绪、隐喻与自然的微光。</p>
+</aside>
+
+      <section class="content" id="view">
+        
+
+
+
+<article class="post-item">
+  <div class="post-meta">
+    2026.08.22<span class="dot">·</span>
+    碎片<span class="dot">×</span>
+    159 字
+  </div>
+  <h2 class="post-title"><a href="/moments/2026-08-22-site-launch/">站点落成</a></h2>
+  <p class="post-excerpt">这个网站终于建起来了。
+从祈里到 Phallaina，好像走了很长一段路。但其实星鲸一直在游，只是我慢慢跟上了它的节奏。
+</p>
+  
+</article>
+
+
+
+<div class="pageNav">
+  <ol class="page-navigator">
+    <li class="prev"><a href="/page/3/">«</a></li>
+    
+      <li class=""><a href="/">1</a></li>
+    
+      <li class=""><a href="/page/2/">2</a></li>
+    
+      <li class=""><a href="/page/3/">3</a></li>
+    
+      <li class="current"><a href="/page/4/">4</a></li>
+    
+    
+  </ol>
+</div>
+
+
+      </section>
+    </main>
+    <footer class="site-footer">
+  <p>© 2026 Phallaina · 星吟 · 白与余白之间</p>
+</footer>
+
+  </div>
+  <button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+  <script>
+  (function () {
+    var htmlEl = document.documentElement;
+    var themeBtn = document.getElementById("themeBtn");
+    function updateBtn(t) { themeBtn.textContent = t === "dark" ? "浅色模式" : "暗色模式"; }
+    function loadTheme() {
+      var saved = null;
+      try { saved = localStorage.getItem("mist-theme"); } catch (e) {}
+      if (saved) { htmlEl.setAttribute("data-theme", saved); updateBtn(saved); }
+      else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        htmlEl.setAttribute("data-theme", "dark"); updateBtn("dark");
+      }
+    }
+    themeBtn.addEventListener("click", function () {
+      var cur = htmlEl.getAttribute("data-theme");
+      var next = cur === "dark" ? "light" : "dark";
+      htmlEl.setAttribute("data-theme", next);
+      try { localStorage.setItem("mist-theme", next); } catch (e) {}
+      updateBtn(next);
+    });
+    loadTheme();
+
+    var toTop = document.getElementById("toTop");
+    window.addEventListener("scroll", function () {
+      toTop.classList.toggle("show", window.scrollY > 0);
+    });
+    toTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  })();
+</script>
+
+</body>
+</html>
